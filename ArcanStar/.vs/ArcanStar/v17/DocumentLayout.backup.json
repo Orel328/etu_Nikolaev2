@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ArcanStar\\",
+  "WorkspaceRootPath": "C:\\Users\\orel\\source\\repos\\Orel328\\etu_Nikolaev2\\ArcanStar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA98C76C-49AF-4F34-A740-57E4595F347A}|ArcanStar\\ArcanStar.vcxproj|C:\\Users\\user\\source\\repos\\ArcanStar\\ArcanStar\\ArcanStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EA98C76C-49AF-4F34-A740-57E4595F347A}|ArcanStar\\ArcanStar.vcxproj|C:\\Users\\orel\\source\\repos\\Orel328\\etu_Nikolaev2\\ArcanStar\\ArcanStar\\ArcanStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EA98C76C-49AF-4F34-A740-57E4595F347A}|ArcanStar\\ArcanStar.vcxproj|solutionrelative:ArcanStar\\ArcanStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ArcanStar.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ArcanStar\\ArcanStar\\ArcanStar.cpp",
+              "DocumentMoniker": "C:\\Users\\orel\\source\\repos\\Orel328\\etu_Nikolaev2\\ArcanStar\\ArcanStar\\ArcanStar.cpp",
               "RelativeDocumentMoniker": "ArcanStar\\ArcanStar.cpp",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ArcanStar\\ArcanStar\\ArcanStar.cpp",
+              "ToolTip": "C:\\Users\\orel\\source\\repos\\Orel328\\etu_Nikolaev2\\ArcanStar\\ArcanStar\\ArcanStar.cpp",
               "RelativeToolTip": "ArcanStar\\ArcanStar.cpp",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-19T06:26:51.57Z",
               "EditorCaption": ""

@@ -1,19 +1,74 @@
 ﻿#include <stdio.h>
+#include <conio.h>
+#include <ctype.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main() {
+    char str[9] = "SSSSSSSS";
+    char dig = 0;
+
+    for (int i = 0; i < 8; ++i) {
+        char dig = _getch();
+
+        if (isdigit(dig)) {
+            str[i] = dig;
+
+        }
+
+        else {
+            if ((int)dig == 27) {
+                exit(0);
+
+            }
+
+            else if ((int)dig == 8) {
+
+                if (i == 0) {
+                    i == 0;
+                }
+
+                else {
+                    str[i] = 'S';
+                    --i;
+                }
+            }
+
+            else {
+                if (i == 0) {
+                    i == 0;
+                }
+
+                else {
+                    --i;
+                }
+            }
+
+        }
+    }
+
+    printf("%s", str);
+    return 0;
+}
+
+
+
+/*#include <stdio.h>
 #include <ctype.h>
 #include <conio.h>
 #include <locale.h>
 #include <iomanip>
-#include <windows.h>
+#include <windows.h>*\
 
 
-int main()
+/*int main()
 {
-    setlocale(LC_ALL, "RU"); //добавил русский язык
+    setlocale(LC_ALL, "RU"); //русский язык
     
     system("color 14");
     HANDLE h;
     h = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(h, 79);
+    SetConsoleTextAttribute(h, 79); //цвет триколор
 
     int i = 0;
 
@@ -396,4 +451,4 @@ int main()
         }
     }while (!(i >= 10));
      return 0;
-}
+}*/
