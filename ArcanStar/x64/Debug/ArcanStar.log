@@ -1,4 +1,2 @@
 ﻿  ArcanStar.cpp
-C:\Users\orel\source\repos\Orel328\etu_Nikolaev2\ArcanStar\ArcanStar\ArcanStar.cpp(28,23): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
-C:\Users\orel\source\repos\Orel328\etu_Nikolaev2\ArcanStar\ArcanStar\ArcanStar.cpp(39,23): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
   ArcanStar.vcxproj -> C:\Users\orel\Source\Repos\Orel328\etu_Nikolaev2\ArcanStar\x64\Debug\ArcanStar.exe
