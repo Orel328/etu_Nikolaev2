@@ -1,8 +1,9 @@
-﻿#define _CRT_SECURE_NO_WARNINGS  
+﻿#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h> 
 #include <locale.h> 
-#include <ctype.h> 
+#include <ctype.h>
+#include <time.h>
 #include <string.h> 
 #include <conio.h> 
 #include <stdlib.h> 
@@ -70,6 +71,8 @@ void printArcanaDescription(int arcana) {
 void handleAction(int choice) {
     system("cls"); // Очищаем консоль
     char input[20];
+    time_t start, end;
+    double duration; // Переменная для хранения времени выполнения функции
     system("color 14"); // Устанавливаем цвет консоли
     HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(h, 79);
@@ -109,10 +112,14 @@ void handleAction(int choice) {
         break; // Прерываем обработку
     }
     case 1: {
-        if (realdate) { // Если дата была введена   
+        if (realdate) { // Если дата была введена  
+            start = clock(); // Замеряем время начала выполнения
             int arcana = arcan(day, month, year); // Вычисляем номер аркана
             printf("Ваш Аркан: %d\n", arcana); // Выводим номер
             printArcanaDescription(arcana); // Выводим описание
+            end = clock(); // Замеряем время окончания
+            duration = ((double)(end - start)) / CLOCKS_PER_SEC; // Вычисляем время выполнения
+            printf("Время выполнения: %f секунд\n", duration); // Выводим время
             _getch(); // Ожидаем нажатия клавиши
         }
         else { // Если дата не была введена
@@ -178,4 +185,3 @@ int main() {
     }
     return 0;
 }
-
